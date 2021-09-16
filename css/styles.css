@@ -1,0 +1,262 @@
+
+:root {
+  --primary-color: #ffffff;
+  --webstydio-link: #2196F3;
+  --title-text: #212121;
+  --text-color: #757575;
+  --contact-color: rgba(255, 255, 255, 0.6);
+}
+
+body {
+  background-color: #E5E5E5;
+  font-family: 'Roboto', sans-serif;
+}
+
+.link-webstydio {
+  color: var(--webstydio-link);
+  text-decoration: none;  
+}
+.web,
+.stydio {
+  font-family: Raleway;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: calc(31 / 26);
+  letter-spacing: 0.03em;
+}
+
+.link-webstydio:hover {
+  text-decoration: underline;
+}
+
+.span-stydio {
+  color: #000000;
+}
+
+.nav,
+.contact {
+  list-style: none;
+  text-decoration: none; 
+  font-style: normal;  
+}
+
+ 
+
+.link-nav {
+  text-decoration: none;    
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.02em;
+  color: var(--title-text);
+}
+
+.link-nav.tel {
+  color: var(--text-color);   
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.02em;
+}
+
+.link-nav:hover {
+  text-decoration: underline;
+}
+
+  .link-nav.one {
+  color: var(--webstydio-link);   
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.02em;
+}
+
+
+
+ 
+
+.link-nav.one:hover,
+.link-nav.one:focus {
+  color: var(--webstydio-link);
+}
+
+ 
+
+.link-nav.email:link {
+  color: var(--webstydio-link);
+}
+
+.link-nav.email {   
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.02em;
+}
+
+.link-nav.email:hover {
+  color: var(--webstydio-link);
+}
+
+.header-title {   
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: calc(60 / 44);
+  /* or 136% */
+
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--primary-color);
+}
+
+.service {   
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(30 / 16);
+}
+ 
+
+.service:hover {
+  background-color: var(--webstydio-link);
+  color: var(--primary-color);
+  cursor: pointer;
+}
+
+.li-title {   
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--title-text);
+}
+
+.text {   
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: calc(24 / 14);
+  /* or 171% */
+  letter-spacing: 0.03em;
+  color: var(--text-color);
+}
+
+.title-list {   
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: calc(42 / 36);
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--title-text);
+}
+
+.username {   
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(19 / 16);
+  /* identical to box height */   
+  letter-spacing: 0.03em;
+  color: var(--title-text);
+}
+
+.profession {   
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: calc(19 / 16);
+  /* identical to box height */   
+  letter-spacing: 0.03em;
+  color: var(--text-color);
+}
+
+.list {
+  list-style: none;
+}
+
+.contact.footer {   
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: calc(24 / 14);
+  /* or 171% */
+  letter-spacing: 0.03em;
+  color: var(--contact-color);  
+}
+
+.contact.footer:hover {
+  color: var(--contact-color);
+  text-decoration: underline;  
+}
+
+.address {
+  color: var(--contact-color);    
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: calc(24 / 14);
+  /* or 171% */
+letter-spacing: 0.03em;
+}
+
+.footer {
+  background: #2F303A;
+}
+
+.span-stydio-footer {
+  color:var(--primary-color);
+}
+      /*Портфолио*/
+.link-nav.portfolio {
+  color: var(--webstydio-link);
+}
+
+ 
+
+.item-filter {
+  background-color: var(--webstydio-link);
+  color:var(--primary-color);
+}
+
+.filter {   
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(26 / 16);
+  /* identical to box height, or 162% */   
+  letter-spacing: 0.03em;
+  color: var(--title-text);
+}
+
+.title-section {  
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: calc(36 / 18);
+/* identical to box height, or 200% */
+letter-spacing: 0.06em;
+color: var(--title-text);
+}
+
+.text-item {   
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: calc(30 / 16);
+  /* identical to box height, or 187% */
+  letter-spacing: 0.03em;
+  color: var(--text-color);
+}
+
+
+
+

@@ -4,44 +4,99 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Домашка №2-Портфолио</title>
+    <title>Домашка №2-Портфолио</title>  
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet"> 
+     
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
       <!-- Шапка -->
       <header>
-        <a href = ""><span>Web</span>Studio</a>
+        <a href = "" class="link-webstydio web"> Web<span class = "span-stydio stydio">Studio</span></a>
         <!-- Навигация -->
         <nav>
-        <ul>
-            <li><a href = "Home">Студия</a></li>
-            <li><a href = "">Портфолио</a></li>
-            <li><a href = "">Контакты</a></li>
+        <ul class = "nav">
+            <li><a href = "./index.html" class="link-nav">Студия</a></li>
+            <li><a href = "./portfolio.html" class="link-nav portfolio">Портфолио</a></li>
+            <li><a href = "" class="link-nav">Контакты</a></li>
         </ul>
     </nav>
-    <ul>
-        <li><a href = "malto:info@devstudio.com">info@devstudio.com</a></li>
-        <li>+38 096 111 11 11</li>
+    <ul class = "contact">
+        <li><a href = "malto:info@devstudio.com" class="link-nav email">info@devstudio.com</a></li>
+        <li><a href="tel:+38 096 111 11 11" class="link-nav tel">+38 096 111 11 11</a></li>
     </ul>
-    <section>
-        <h1>Эффективные решения для вашего бизнеса</h1>
-        <button>Заказать услугу</button>
-    </section>
-
     </header>
     <!--Основной контент-->
     <main>
-        
+        <!--Фильтры-->
+        <section>
+            <ul class = "list"> 
+                <li class = "filter"><button type="button" class = "item-filter">Все</button></li>
+                <li class = "filter"><button type="button">Веб-сайты</button></li>
+                <li class = "filter"><button type="button">Приложения</button></li>
+                <li class = "filter"><button type="button">Дизайн</button></li>
+                <li class = "filter"><button type="button">Маркетинг</button></li>
+            </ul>
+            <!--Карточки портфолио-->
+            <ul class="list">        
+                <li>
+                    <img src = "./images/imgf.jpg" width = "370" height="294" alt = "Веб-сайт">
+                    <h3 class = "title-section">Технокряк</h3>
+                    <p class = "text-item">Веб-сайт</p>
+                </li>
+                <li>
+                    <img src = "./images/img1f.jpg" width = "370" height="294" alt = " Матч двух баскетбольных команд New Orlean vs Golden Star">
+                    <h3 class = "title-section">Постер New Orlean vs Golden Star</h3>
+                    <p class = "text-item">Дизайн</p>
+                </li>
+                <li>
+                    <img src = "./images/img2f.jpg" width = "370" height="294" alt = "Логотип Ресторан Seafood">
+                    <h3 class = "title-section">Ресторан Seafood</h3>
+                    <p class = "text-item">Приложение</p>
+                </li>        
+                <li>
+                    <img src = "./images/imgf3.jpg" width = "370" height="294" alt = "Наушеники">
+                    <h3 class = "title-section">Проект Prime</h3>
+                    <p class = "text-item">Маркетинг</p>
+                </li>
+                <li>
+                    <img src="./images/imgf4.jpg" width = "370" height="294" alt = "Небольшие коробки">
+                    <h3 class = "title-section">Проект Boxes</h3>
+                    <p class = "text-item">Приложение</p>
+                </li>
+                <li>
+                    <img src="./images/imgf5.jpg" width = "370" height="294" alt = "У вдохновения нет границ">
+                    <h3 class = "title-section" lang="en">Inspiration has no Borders</h3>
+                    <p class = "text-item">Веб-сайт</p>
+                </li>        
+                <li>
+                    <img src="./images/imgf6.jpg" width = "370" height="294" alt = "Ограниченное издание">
+                    <h3 class = "title-section">Издание Limited Edition</h3>
+                    <p class = "text-item">Дизайн</p>
+                </li>
+                <li>
+                    <img src="./images/imgf7.jpg" width = "370" height="294" alt = "Проект LAB">
+                    <h3 class = "title-section">Проект LAB</h3>
+                    <p class = "text-item">Маркетинг</p>
+                </li>
+                <li>
+                    <img src="./images/imgf8.jpg" width = "370" height="294" alt = "Разработка бизнес приложения на ноутбуке">
+                    <h3 class = "title-section" lang="en">Growing Business</h3>
+                    <p class = "text-item">Приложение</p>
+                </li>
+            </ul>
+        </section>
     </main>
 
     <!-- Футер-->
-    <footer>
+    <footer class = "footer">
         <!--Логотип-->
-        <a href = ""><span>Web</span>Studio</a>
+        <a href = "" class="link-webstydio web">Web<span class = "span-stydio-footer stydio">Studio</span></a>
         <address>
-            <p>г. Киев, пр-т Леси Украинки, 26</p>
+            <p class = "address">г. Киев, пр-т Леси Украинки, 26</p>
             
-            <p>info@example.com</p>
-            <p>+38 096 111 11 11</p> 
+            <p><a href = "mailto:info@example.com" class="link-nav email">info@example.com</a></p>
+            <p><a href = "tel:+380961111111" class="link-nav tel">+38 096 111 11 11</a></p>             
             
         </address>
 
